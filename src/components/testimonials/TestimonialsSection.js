@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
             {/* Testimonials Heading */}
             <h2 className="text-4xl font-bold text-center">Testimonials</h2>
             {/* Testimonials Container */}
-            <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <div className="flex flex-col mt-8 md:flex-row md:space-x-6">
                 <TestimonialCard
                     link="avatar-anisha.png"
                     name="Anisha Li"
@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
                     and progress tracking have greatly improved our overall workflow."
                 />
             </div>
-            <div className="flex-flex-col my-16 max-w-sm mx-auto">
+            <div className="flex-flex-col mt-4 mb-24 max-w-sm mx-auto">
                 <CtaButton
                     link=""
                     value="Learn about other customer experiences"
