@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuItem from './MenuItem';
+import MobileMenu from './MobileMenu';
 import CtaButton from './CtaButton';
 import logo from '../assets/logo.svg';
 
@@ -21,6 +22,7 @@ export default function NavBar(props) {
                     <MenuItem link="" value="Community" />
                 </div>
                 <CtaButton link="" value="Get Started" />
+                <MobileMenu />
             </div>
         </nav>
     );

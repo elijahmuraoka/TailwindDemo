@@ -7,10 +7,13 @@
     "license": "ISC",
     "main": "./src/index.js",
     "devDependencies": {
-        "nodemon": "^2.0.20",
         "tailwindcss": "^3.2.4"
     },
     "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/icons-material": "^5.11.9",
+        "@mui/material": "^5.11.9",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
@@ -21,12 +24,11 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "devStart": "nodemon main",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "buildTailWind": "tailwindcss -i ./src/input.css -o ./src/css/main.css",
-        "watch": "tailwindcss -i ./src/input.css -o ./src/css/main.css --watch"
+        "buildTailWind": "tailwindcss -i ./src/css/input.css -o ./src/css/main.css",
+        "watch": "tailwindcss -i ./src/css/input.css -o ./src/css/main.css --watch"
     },
     "eslintConfig": {
         "extends": [
