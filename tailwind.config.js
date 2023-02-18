@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ['./src/*.html'],
+    //content: ['./src/**/*.{html, js}'],
+    mode: 'jit',
+    // These paths are just examples, customize them to match your project structure
+    content: ['./public/**/*.html', './src/**/*.{html,js,jsx,ts,tsx,vue}'],
     theme: {
         screens: {
             sm: '480px',

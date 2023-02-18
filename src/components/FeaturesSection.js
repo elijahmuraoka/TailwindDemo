@@ -1,13 +1,12 @@
 import React from 'react';
 import ListItem from './ListItem';
 
-export default function FeaturesSection(params) {
+export default function FeaturesSection(props) {
     return (
         <section id="features">
             {/* <!-- Flex container  --> */}
-            <div class="container flex flex-col px-4 mx-auto space-y-12 md:space-y-0 md:flex-row">
-                {/* <!-- What's Different Heading  --> */}
-                <div class="flex flex-col space-y-10 md:w-1/2">
+            <div class="container flex flex-col px-4 mx-auto space-y-10 md:space-y-0 md:flex-row">
+                <div class="flex flex-col space-y-8 md:w-1/2">
                     <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
                         What's different about Manage?
                     </h2>

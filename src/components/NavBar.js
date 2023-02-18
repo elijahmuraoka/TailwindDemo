@@ -15,12 +15,16 @@ export default function NavBar(props) {
                 </div>
                 {/* Menu Items */}
                 <div class="hidden space-x-6 md:flex">
-                    <MenuItem link="" value="Pricing" />
-                    <MenuItem link="" value="About Us" />
-                    <MenuItem link="" value="Careers" />
-                    <MenuItem link="" value="Community" />
+                    <MenuItem link="#hero" value="About Us" />
+                    <MenuItem link="#testimonials" value="Community" />
+                    <MenuItem link="#footer" value="Contact Us" />
                 </div>
-                <CtaButton link="" value="Get Started" />
+                <CtaButton
+                    link=""
+                    value="Get Started"
+                    bgColor="bg-brightRed"
+                    hidden={true}
+                />
             </div>
         </nav>
     );

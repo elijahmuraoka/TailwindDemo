@@ -3,7 +3,7 @@ import CtaButton from './CtaButton';
 import illustrationIntro from '../assets/illustration-intro.svg';
 
 // Hero Section
-export default function HeroSection(params) {
+export default function HeroSection(prop) {
     return (
         <section id="hero">
             {/* <!-- Flex Container --> */}
@@ -19,7 +19,7 @@ export default function HeroSection(params) {
                         view.
                     </p>
                     <div class="flex justify-center md:justify-start">
-                        <CtaButton link="" value="Get Started" />
+                        <CtaButton link="" value="Get Started" bgColor="bg-brightRed" hidden={true} />
                     </div>
                 </div>
                 {/* <!-- Right Item --> */}
