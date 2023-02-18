@@ -1,9 +1,12 @@
 import React from 'react';
 
-export default function MenuItem({ link, value }) {
-    return (
-        <a href={link} class="hover:text-darkGrayishBlue">
+// A single menu item link
+export default function MenuItem({ link, value, mobile = false }) {
+    const menuClasses = mobile ? 'font-bold px-6' : '';
+    const menuLink = (
+        <a href={link} className={`${menuClasses} hover:text-darkGrayishBlue`}>
             {value}
         </a>
     );
+    return <div>{menuLink}</div>;
 }

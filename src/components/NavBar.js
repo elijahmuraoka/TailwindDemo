@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuItem from './MenuItem';
+import MobileMenu from './MobileMenu';
 import CtaButton from './CtaButton';
 import logo from '../assets/logo.svg';
 
@@ -25,6 +26,7 @@ export default function NavBar(props) {
                     bgColor="bg-brightRed"
                     hidden={true}
                 />
+                <MobileMenu />
             </div>
         </nav>
     );
