@@ -1,7 +1,7 @@
 import React from 'react';
-import MenuItem from './MenuItem';
-import MobileMenu from './MobileMenu';
-import CtaButton from './CtaButton';
+import MenuItem from './menu/MenuItem';
+import MobileMenu from './menu/MobileMenu';
+import CtaButton from './cta/CtaButton';
 import logo from '../assets/logo.svg';
 
 // Navbar

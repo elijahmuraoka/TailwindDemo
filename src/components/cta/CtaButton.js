@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 // Call to Action Button, aka Get Started Button
 export default function CtaButton({ link, value, bgColor, hidden }) {
@@ -10,7 +9,7 @@ export default function CtaButton({ link, value, bgColor, hidden }) {
     const [hoverClass, setHoverClass] = useState('bg-brightRedLight');
     useEffect(() => {
         const colorVariants = {
-            altColor: { text: 'text-brightRed', bg: 'bg-gray-800' },
+            altColor: { text: 'text-brightRed', bg: 'bg-gray-800' }
         };
         if (bgColor !== bgColorClass) {
             setBgColorClass(bgColor);

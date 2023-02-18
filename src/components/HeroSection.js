@@ -1,5 +1,5 @@
 import React from 'react';
-import CtaButton from './CtaButton';
+import CtaButton from './cta/CtaButton';
 import illustrationIntro from '../assets/illustration-intro.svg';
 
 // Hero Section

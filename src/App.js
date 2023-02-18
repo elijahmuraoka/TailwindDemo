@@ -1,8 +1,8 @@
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
-import FeaturesSection from './components/FeaturesSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import CtaSection from './components/CtaSection';
+import FeaturesSection from './components/features/FeaturesSection';
+import TestimonialsSection from './components/testimonials/TestimonialsSection';
+import CtaSection from './components/cta/CtaSection';
 import Footer from './components/Footer';
 
 function App() {

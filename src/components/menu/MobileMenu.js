@@ -41,7 +41,7 @@ export default function MobileMenu() {
             <div className="md:hidden">
                 <div
                     id="menu"
-                    className={`${menuActiveClass} absolute flex flex-col items-center right-14 py-8 space-y-6 bg-white drop-shadow-md transition-transform ease-in-out duration-200`}
+                    className={`${menuActiveClass} absolute flex flex-col items-center right-14 py-8 space-y-6 bg-gray-50 drop-shadow-md transition-transform ease-in-out duration-200`}
                 >
                     <MenuItem link="#hero" value="About Us" mobile={true} />
                     <MenuItem
