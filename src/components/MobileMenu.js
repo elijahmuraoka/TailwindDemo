@@ -8,7 +8,7 @@ export default function MobileMenu() {
     const [menuActive, setMenuActive] = useState(false);
     const menuActiveClass = menuActive
         ? 'translate-y-0'
-        : 'translate-y-[-50%] scale-0';
+        : 'translate-y-[-50%] translate-x-[50%] scale-0';
 
     function handleOnClick() {
         if (!menuActive) {
@@ -41,7 +41,7 @@ export default function MobileMenu() {
             <div className="md:hidden">
                 <div
                     id="menu"
-                    className={`${menuActiveClass} fixed right-3 flex flex-col items-center py-8 space-y-6 bg-white sm:w-auto sm:self-center drop-shadow-md transition-transform ease-out duration-200`}
+                    className={`${menuActiveClass} absolute right-6 flex flex-col items-center py-8 space-y-6 bg-white sm:w-auto sm:self-center drop-shadow-md transition-transform ease-out duration-200`}
                 >
                     <MenuItem link="" value="Pricing" mobile={true} />
                     <MenuItem link="" value="About Us" mobile={true} />
