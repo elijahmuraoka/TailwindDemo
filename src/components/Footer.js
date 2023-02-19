@@ -104,7 +104,7 @@ export default function Footer() {
                     />
                 </form>
             </div>
-            {makeCopyRight('sm:hidden md:block ml-[40%] mt-12')}
+            {makeCopyRight('hidden md:block ml-[40%] mt-12')}
         </footer>
     );
 }
